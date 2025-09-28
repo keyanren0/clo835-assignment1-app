@@ -24,7 +24,7 @@ jobs:
 
       - name: Build MySQL image
         run: |
-          docker build -t ${{ steps.login-ecr.outputs.registry }}/mysql-ecr:latest -f mysql/Dockerfile .
+          docker build -t ${{ steps.login-ecr.outputs.registry }}/mysql-ecr:latest -f Dockerfile_mysql .
 
       - name: Push MySQL image to ECR
         run: |
