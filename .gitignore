@@ -1,0 +1,17 @@
+
+.docker/
+*.dockerfile.bak
+docker-compose.yml.bak
+
+
+venv/
+logs/
+*.log
+
+
+.env
+*.pem
+
+
+.idea/
+.vscode/
